@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.Anusuya.SuiteExamble">
+      <class name="org.Anusuya.TestngPractice">
         <methods>
-          <include name="openGoogle"/>
-          <include name="openBing"/>
-          <include name="openYahoo"/>
-          <include name="launchBrowser"/>
-          <include name="quitBrowser"/>
+          <include name="sampleTest"/>
         </methods>
-      </class> <!-- org.Anusuya.SuiteExamble -->
+      </class> <!-- org.Anusuya.TestngPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

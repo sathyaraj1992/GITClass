@@ -12,9 +12,10 @@ public class TestngPractice {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 				driver.get("https://mvnrepository.com/");
-
-
-
+				}
+	private void sample() {
+		System.out.println("sathya");
 	}
+
 
 }
